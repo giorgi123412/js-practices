@@ -1,22 +1,13 @@
-var arr = [5,6,7,3,5,9,1];
-var min, temp ;
-
-for (var i = 0; i < arr.length; i++)
-{
-    min = arr[i];
-    for (var j = i; j < arr.length; j++)
-    {
-        if (min > arr[j])
-        {
-            min = arr[j];
-            temp = arr[i];
-            arr[j] = temp;
-            arr[i] = min;
+var arr = [4, 1, 2, 5, 3];
+var arrtwo = [];
+for (let number of arr) {
+    let i = 0;
+    for (let a of arr) {
+        if (number > a) {
+            i++;
         }
     }
-}
+    arrtwo[i] = number;
 
-for (i = 0; i < arr.length ; i++)
-{
-    console.log(arr[i]);
 }
+console.log(arrtwo);
