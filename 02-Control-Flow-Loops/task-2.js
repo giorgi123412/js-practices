@@ -1,5 +1,5 @@
-var login = 'Owner';
-var message = login == 'Pitter' ? 'hi'
+let login = 'Owner';
+let message = login == 'Pitter' ? 'hi'
              :login == 'Owner' ? 'Hello'
              :login == '' ? 'unknown'
              :'';

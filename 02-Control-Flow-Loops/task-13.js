@@ -1,4 +1,4 @@
-var arr = [3, 2, 1, -1, -2, -3];
+let arr = [3, 2, 1, -1, -2, -3];
 sum = 0;
 
 for(let i of arr){

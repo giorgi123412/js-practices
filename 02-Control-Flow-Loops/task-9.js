@@ -1,7 +1,7 @@
-var a;
-var b;
+let a;
+let b;
 
-for (var i = 2 ; i < 10 ; i++)
+for (let i = 2 ; i < 10 ; i++)
 {
     a = false;
     b = 2;
