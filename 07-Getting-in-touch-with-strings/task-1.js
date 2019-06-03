@@ -4,7 +4,7 @@ const upperCaseFirst = function (str) {
         throw new TypeError('Is not string');
     }
 
-    let one = str.charAt(0);
+    let one = str.charAt(0).toUpperCase();
     let two = str.slice(1);
 
     return one + two;
