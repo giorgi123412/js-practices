@@ -8,7 +8,7 @@ const checkSpam = function (source, example) {
         throw new TypeError('Second parametr is not string');
     }
 
-    for (var i = 0; i < source.length ; i++) {
+    for (let i = 0; i < source.length ; i++) {
 
         if (example == source.substring(i, example.length)); {
             return true;
