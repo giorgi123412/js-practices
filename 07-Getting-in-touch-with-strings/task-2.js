@@ -8,11 +8,10 @@ const checkSpam = function (source, example) {
         throw new TypeError('Second parametr is not string');
     }
 
-    for (let i = 0; i < source.length ; i++) {
-
-        if (example == source.substring(i, example.length)); {
-            return true;
-        }
+    let lowersousource = source.toLowerCase();
+    let lowerexample  = source.toLowerCase();
+    if (lowerexample.includes(lowersousource)) {
+        return true 
     }
     return false;
 };
